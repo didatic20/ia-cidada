@@ -1,0 +1,137 @@
+Timestamp,Qual é o seu sexo?,Qual é a sua idade?,Você se considera bem informado sobre o COVID-19?,Você considera importante saber sobre o COVID-19?,Quão importante você considera saber sobre o COVID-19?,Qual(is) os meios de comunicação que mais tem te informado sobre o COVID-19?,Com qual frequência você se informa sobre o COVID-19?,Você se sente confiante com as informações que possui sobre o COVID-19?,Quão confiante você se sente com as informações que possui sobre o COVID-19?,Conhece os sintomas mais comuns e considerados de alerta para o COVID-19?,"Dentre os sintomas abaixo, qual(is) você relaciona ao COVID-19?",Saberia observar de forma correta possíveis sinais ou sintomas relacionados ao COVID-19?,"Caso sinta sintomas considerados suspeitos, você saberia como proceder?","Por fim, você se considera informado sobre as medidas de prevenção do COVID-19?",Quão informado você se considera sobre medidas de prevenção do COVID-19?
+3/31/2020 10:52:28,Masculino,30,Não,Sim,4,Internet,De vez em quando,Sim,3,Sim,"Tosse, Febre, Falta de ar, Coriza",Sim,Sim,Sim,5
+3/31/2020 11:00:32,Masculino,38,Sim,Sim,5,Internet,Diariamente,Sim,5,Sim,Febre,Sim,Sim,Sim,5
+3/31/2020 13:10:27,Masculino,32,Sim,Sim,5,Telejornal,Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza",Sim,Sim,Sim,5
+3/31/2020 18:52:30,Feminino,27,Sim,Sim,5,Youtube,De vez em quando,Não,3,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,4
+3/31/2020 19:11:10,Masculino,0,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,5,Sim,Perda do paladar,Sim,Sim,Sim,5
+3/31/2020 22:12:58,Feminino,41,Não,Sim,5,Redes sociais/Internet,De vez em quando,Não,2,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Não,Não,Não,3
+3/31/2020 22:13:39,Masculino,30,Não,Sim,4,Redes sociais/Internet,Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Coriza",Sim,Sim,Sim,4
+3/31/2020 22:19:09,Feminino,24,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,3,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Coriza",Não,Sim,Sim,5
+3/31/2020 22:22:02,Masculino,29,Sim,Sim,4,"Televisão, Redes sociais/Internet",Diariamente,Não,4,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+3/31/2020 22:28:24,Feminino,38,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar",Sim,Sim,Sim,5
+3/31/2020 22:30:32,Feminino,28,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo",Sim,Sim,Sim,5
+3/31/2020 22:31:42,Feminino,29,Sim,Sim,5,Redes sociais/Internet,Diariamente,Não,3,Sim,"Tosse, Febre, Diarréia, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,4
+3/31/2020 22:33:46,Feminino,25,Não,Sim,5,Redes sociais/Internet,De vez em quando,Não,2,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor de garganta",Não,Não,Não,3
+3/31/2020 22:36:02,Masculino,38,Sim,Sim,4,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,Perda de olfato,Não,Sim,Não,4
+3/31/2020 22:39:50,Feminino,37,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor de garganta",Sim,Sim,Sim,5
+3/31/2020 23:21:23,Feminino,39,Sim,Sim,5,"Televisão, Redes sociais/Internet",Só quando tenho dúvida/curiosidade,Sim,5,Sim,"Tosse, Febre, Falta de ar, Dor de garganta",Sim,Sim,Sim,5
+3/31/2020 23:26:50,Feminino,35,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,5
+3/31/2020 23:27:24,Feminino,26,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor de garganta",Sim,Sim,Sim,5
+3/31/2020 23:27:30,Masculino,24,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+3/31/2020 23:32:34,Masculino,31,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar",Sim,Sim,Sim,4
+3/31/2020 23:40:49,Masculino,30,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza",Sim,Sim,Sim,5
+4/1/2020 0:40:27,Masculino,30,Sim,Sim,5,Redes sociais/Internet,De vez em quando,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,5
+4/1/2020 6:58:42,Masculino,34,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor de garganta",Não,Sim,Sim,4
+4/1/2020 9:09:25,Masculino,47,Não,Sim,5,Televisão,Diariamente,Não,3,Não,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Não,Não,Sim,3
+4/1/2020 12:11:14,Feminino,53,Sim,Sim,5,Whatsapp,Diariamente,Sim,5,Não,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,5
+4/1/2020 17:31:14,Masculino,24,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 21:56:00,Masculino,24,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Não,4,Sim,"Tosse, Febre, Falta de ar, Perda de olfato, Perda do paladar",Não,Não,Sim,4
+4/1/2020 21:59:20,Masculino,22,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Falta de ar, Coriza",Sim,Sim,Sim,4
+4/1/2020 21:59:40,Feminino,18,Não,Não,3,Redes sociais/Internet,De vez em quando,Não,2,Sim,"Febre, Falta de ar, Dor de garganta, Perda de olfato",Não,Sim,Sim,4
+4/1/2020 22:00:51,Feminino,41,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza, Perda do paladar",Sim,Sim,Sim,5
+4/1/2020 22:02:03,Feminino,19,Sim,Sim,5,Redes sociais/Internet,De vez em quando,Não,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 22:11:58,Feminino,15,Não,Sim,4,"Televisão, Whatsapp",De vez em quando,Não,1,Sim,"Tosse, Febre, Falta de ar, Coriza, Dor de garganta",Sim,Não,Não,2
+4/1/2020 22:12:02,Feminino,17,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Coriza",Sim,Sim,Sim,5
+4/1/2020 22:17:18,Masculino,40,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Sim,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/1/2020 22:24:22,Feminino,35,Não,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,2,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar",Não,Sim,Sim,4
+4/1/2020 22:32:37,Feminino,32,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/1/2020 22:34:32,Masculino,42,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 22:56:57,Masculino,36,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar, Dor de garganta",Não,Sim,Sim,4
+4/1/2020 23:01:03,Feminino,24,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 23:04:00,Feminino,29,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/1/2020 23:06:43,Masculino,49,Sim,Sim,5,Televisão,Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/1/2020 23:08:58,Feminino,34,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/1/2020 23:09:41,Masculino,36,Sim,Sim,5,Televisão,Diariamente,Não,4,Não,"Tosse, Febre, Falta de ar, Dor de garganta, Perda de olfato, Perda do paladar",Não,Não,Sim,3
+4/1/2020 23:09:59,Masculino,37,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 23:10:57,Feminino,42,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,3,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor de garganta, Perda de olfato, Perda do paladar",Não,Não,Sim,4
+4/1/2020 23:12:10,Feminino,56,Sim,Sim,4,Whatsapp,Diariamente,Não,2,Sim,"Febre, Falta de ar",Não,Não,Não,2
+4/1/2020 23:18:07,Feminino,51,Sim,Sim,5,Whatsapp,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,5
+4/1/2020 23:24:59,Masculino,46,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/1/2020 23:25:37,Feminino,34,Sim,Sim,5,Televisão,Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,3
+4/1/2020 23:27:47,Feminino,30,Sim,Sim,5,"Televisão, Redes sociais/Internet",De vez em quando,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/1/2020 23:35:21,Feminino,31,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,5,Sim,"Febre, Falta de ar, Dor de garganta",Sim,Sim,Sim,4
+4/1/2020 23:40:42,Feminino,37,Sim,Sim,5,Redes sociais/Internet,De vez em quando,Não,1,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,5
+4/1/2020 23:46:45,Feminino,44,Sim,Sim,4,Redes sociais/Internet,De vez em quando,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/1/2020 23:48:17,Feminino,64,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/1/2020 23:57:56,Feminino,38,Sim,Sim,5,"Televisão, Whatsapp",Diariamente,Não,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 0:47:21,Feminino,36,Sim,Sim,5,Televisão,Diariamente,Sim,5,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 0:58:57,Feminino,52,Sim,Sim,5,Redes sociais/Internet,Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,3
+4/2/2020 1:24:02,Feminino,60,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Febre, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 1:37:09,Feminino,24,Sim,Sim,4,"Televisão, Redes sociais/Internet, Whatsapp",De vez em quando,Não,3,Sim,"Tosse, Febre, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/2/2020 2:56:00,Masculino,28,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",De vez em quando,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Dor no corpo",Sim,Sim,Sim,5
+4/2/2020 7:12:37,Feminino,27,Não,Sim,4,"Televisão, Redes sociais/Internet, Whatsapp",De vez em quando,Não,2,Sim,"Tosse, Febre, Falta de ar, Coriza, Dor de garganta",Não,Sim,Sim,4
+4/2/2020 7:53:44,Masculino,38,Sim,Sim,5,Televisão,Diariamente,Sim,5,Sim,"Tosse, Febre, Falta de ar, Coriza",Sim,Sim,Sim,5
+4/2/2020 7:58:10,Feminino,39,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 8:47:25,Feminino,34,Não,Sim,3,Redes sociais/Internet,De vez em quando,Não,2,Sim,"Febre, Dor de cabeça, Diarréia, Falta de ar, Dor de garganta",Não,Sim,Sim,3
+4/2/2020 9:27:56,Feminino,46,Não,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Não,Não,Sim,3
+4/2/2020 9:30:17,Masculino,24,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 9:46:59,Feminino,49,Sim,Sim,3,Redes sociais/Internet,De vez em quando,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,3
+4/2/2020 9:50:04,Feminino,24,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Febre, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 10:01:05,Feminino,48,Não,Sim,5,Televisão,Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 10:13:02,Masculino,44,Sim,Sim,4,"Televisão, Redes sociais/Internet",Diariamente,Não,2,Sim,"Tosse, Febre, Falta de ar",Sim,Não,Sim,4
+4/2/2020 10:29:53,Prefiro não dizer,26,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 10:33:17,Feminino,24,Sim,Sim,5,Redes sociais/Internet,Diariamente,Não,2,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 10:36:03,Masculino,23,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Não,Sim,5
+4/2/2020 10:45:24,Masculino,16,Não,Sim,5,Redes sociais/Internet,De vez em quando,Não,1,Sim,"Tosse, Febre, Falta de ar",Não,Não,Sim,3
+4/2/2020 10:48:46,Feminino,Sao Paulo,Sim,Sim,5,Televisão,Diariamente,Não,1,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato",Sim,Sim,Sim,5
+4/2/2020 10:55:29,Masculino,27,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,4
+4/2/2020 10:58:10,Feminino,29,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 10:58:44,Masculino,37,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,2,Sim,"Tosse, Febre, Falta de ar, Dor no corpo",Sim,Sim,Sim,5
+4/2/2020 10:59:07,Feminino,46,Sim,Sim,5,Televisão,Diariamente,Sim,5,Sim,Falta de ar,Sim,Sim,Sim,5
+4/2/2020 11:02:08,Masculino,51,Sim,Sim,5,"Televisão, Redes sociais/Internet",De vez em quando,Sim,5,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Coriza",Sim,Sim,Sim,5
+4/2/2020 11:03:36,Masculino,53,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 11:03:49,Feminino,36,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Perda de olfato",Sim,Sim,Sim,5
+4/2/2020 11:06:11,Feminino,22,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 11:15:22,Masculino,37,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 11:16:20,Feminino,39,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Não,Sim,4
+4/2/2020 11:17:57,Masculino,57,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 11:19:49,Feminino,18,Sim,Sim,5,Redes sociais/Internet,De vez em quando,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor de garganta, Perda de olfato",Sim,Sim,Sim,4
+4/2/2020 11:20:28,Masculino,54,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 11:22:10,Feminino,15,Sim,Sim,1,Televisão,Diariamente,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,4
+4/2/2020 11:22:43,Masculino,27,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Perda de olfato",Não,Não,Sim,4
+4/2/2020 11:29:10,Feminino,33,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Coriza",Sim,Sim,Sim,5
+4/2/2020 11:46:59,Feminino,44,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 11:54:08,Masculino,27,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar, Coriza",Sim,Sim,Sim,4
+4/2/2020 12:00:20,Feminino,63,Sim,Sim,5,"Televisão, Redes sociais/Internet, Whatsapp",Diariamente,Não,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 12:30:02,Masculino,43,Sim,Sim,4,Televisão,Só quando tenho dúvida/curiosidade,Não,2,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,4
+4/2/2020 12:42:54,Feminino,54,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 12:50:26,Masculino,28,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 12:51:29,Masculino,26,Sim,Sim,5,"Televisão, Redes sociais/Internet",De vez em quando,Sim,5,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 12:52:27,Masculino,26,Sim,Sim,5,"Televisão, Redes sociais/Internet",De vez em quando,Sim,4,Sim,"Tosse, Febre, Falta de ar, Dor no corpo",Sim,Sim,Sim,4
+4/2/2020 12:53:19,Feminino,26,Sim,Sim,5,Televisão,Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 12:53:57,Masculino,26,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 12:54:55,Feminino,31,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar, Coriza, Dor de garganta, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 12:55:18,Feminino,27,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Não,Sim,5
+4/2/2020 13:00:16,Masculino,29,Sim,Sim,5,"Televisão, Redes sociais/Internet",Só quando tenho dúvida/curiosidade,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 13:03:07,Masculino,37,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,4
+4/2/2020 13:03:36,Feminino,28,Sim,Sim,5,Redes sociais/Internet,Diariamente,Não,3,Sim,"Tosse, Febre, Diarréia, Falta de ar, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 13:04:32,Masculino,São bernardo do Campo,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,5,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 13:04:33,Feminino,28,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza, Dor de garganta",Sim,Sim,Sim,5
+4/2/2020 13:06:28,Feminino,26,Sim,Sim,4,Redes sociais/Internet,Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 13:08:32,Masculino,23,Sim,Sim,5,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 13:09:06,Masculino,30,Sim,Sim,5,"Redes sociais/Internet, Whatsapp",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,4
+4/2/2020 13:24:47,Masculino,37,Sim,Sim,5,Redes sociais/Internet,Só quando tenho dúvida/curiosidade,Não,1,Sim,"Tosse, Febre, Falta de ar, Perda do paladar",Sim,Sim,Sim,1
+4/2/2020 13:51:34,Feminino,25,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Falta de ar, Dor no corpo, Perda de olfato, Perda do paladar",Não,Sim,Sim,4
+4/2/2020 14:05:50,Masculino,20,Não,Sim,4,"Televisão, Redes sociais/Internet",Diariamente,Não,3,Sim,"Tosse, Febre, Dor de cabeça",Não,Não,Não,3
+4/2/2020 14:33:52,Masculino,25,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Falta de ar",Não,Não,Sim,4
+4/2/2020 14:53:35,Masculino,24,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 16:08:46,Masculino,31,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 16:23:53,Masculino,34,Não,Sim,5,Televisão,Diariamente,Não,1,Sim,Falta de ar,Sim,Sim,Sim,5
+4/2/2020 18:31:09,Masculino,12,Sim,Sim,4,Televisão,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Coriza, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Não,1
+4/2/2020 20:36:07,Masculino,30,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar",Sim,Sim,Sim,5
+4/2/2020 20:40:13,Masculino,26,Não,Não,1,Redes sociais/Internet,Só quando tenho dúvida/curiosidade,Não,1,Sim,"Febre, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Não,Sim,Sim,5
+4/2/2020 21:23:12,Masculino,21,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Dor de garganta",Não,Não,Sim,4
+4/2/2020 21:34:49,Masculino,18,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/2/2020 23:36:23,Feminino,41,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Coriza",Sim,Sim,Sim,4
+4/3/2020 7:17:28,Masculino,24,Não,Sim,4,"Televisão, Redes sociais/Internet",Diariamente,Não,2,Sim,"Tosse, Febre, Falta de ar",Sim,Sim,Não,3
+4/3/2020 8:54:00,Masculino,39,Sim,Sim,4,"Televisão, Whatsapp",Diariamente,Não,2,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Perda de olfato",Sim,Sim,Sim,4
+4/3/2020 10:20:25,Masculino,36,Sim,Sim,5,Redes sociais/Internet,Diariamente,Sim,4,Sim,"Tosse, Febre, Falta de ar, Coriza",Não,Sim,Sim,4
+4/3/2020 11:45:47,Feminino,48,Sim,Sim,3,Televisão,Diariamente,Não,2,Sim,"Tosse, Febre, Dor no corpo, Coriza, Dor de garganta",Sim,Sim,Sim,3
+4/3/2020 12:34:00,Feminino,27,Sim,Sim,5,"Televisão, Redes sociais/Internet",De vez em quando,Sim,5,Sim,"Tosse, Febre, Falta de ar, Dor no corpo",Não,Sim,Sim,4
+4/3/2020 14:00:25,Feminino,50,Não,Sim,5,"Redes sociais/Internet, Whatsapp",Só quando tenho dúvida/curiosidade,Não,3,Sim,"Febre, Dor de cabeça, Diarréia, Falta de ar, Dor no corpo, Dor de garganta, Perda do paladar",Não,Não,Não,1
+4/3/2020 15:03:52,Masculino,40,Sim,Sim,5,Redes sociais/Internet,De vez em quando,Sim,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Dor de garganta",Não,Sim,Sim,5
+4/3/2020 15:08:53,Masculino,33,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,5,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/3/2020 15:26:50,Masculino,26,Sim,Sim,5,Whatsapp,Diariamente,Sim,5,Sim,"Febre, Dor de cabeça, Diarréia, Falta de ar",Sim,Sim,Sim,5
+4/3/2020 15:50:41,Feminino,23,Sim,Sim,5,"Televisão, Redes sociais/Internet",Diariamente,Sim,4,Sim,"Tosse, Febre, Diarréia, Falta de ar, Dor no corpo, Dor de garganta, Perda de olfato, Perda do paladar",Sim,Sim,Sim,5
+4/3/2020 15:58:44,Masculino,20,Sim,Sim,5,Televisão,Só quando tenho dúvida/curiosidade,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Falta de ar, Dor no corpo, Dor de garganta",Sim,Sim,Sim,4
+4/3/2020 16:37:00,Masculino,25,Sim,Sim,3,Redes sociais/Internet,De vez em quando,Não,3,Sim,"Tosse, Febre, Dor de cabeça, Diarréia, Falta de ar, Coriza",Não,Não,Sim,4
