@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Cidadã</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script lang="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="sintomas">
+                <p><label><script>dateTime()</script></label></p>
+                <!--formulário de cadastro -->
+                <form method="post" action="">
+                    <h1> Como você está se sentindo hoje?</h1>
+                    <!--temperatura-->
+                    <p> 
+                        <label for="dadosFebre">Você esta com febre?</label>
+                        <select name="dFebre" id="febre"><option value="sim">Sim</option><option value="nao">Não</option></select>
+                        <input id="temperaturaFebre" name="temperaturaFebre" type="text" placeholder="Ex. 36.9"/>
+                    </p>
+                    <!--tosse-->
+                    <p>
+                        <label for="dadosTosse">Você está com tosse?</label>
+                        <select name="dTosse" id="tosse"><option value="sim">Sim</option><option value="nao">Não</option></select>
+                        <input id="pTosse" name="dPeriodotosse" type="text" placeholder="Se afirmativo, quantos dias?">
+                    </p>
+
+                    <!--coriza-->
+                    <p>
+                        <label for="dadosCoriza">Você está com coriza?</label>
+                        <select name="dCoriza" id="coriza"><option value="sim">Sim</option><option value="nao">Não</option></select>
+                        <input id="pCoriza" name="dPeriodocoriza" type="text" placeholder="Se afirmativo, quantos dias?">
+                    </p>
+
+                    <!--falta de ar-->
+                    <p>
+                        <label for="dadosFaltadear">Você está com falta de ar?</label>
+                        <select name="dFaltadear" id="faltadear"><option value="sim">Sim</option><option value="nao">Não</option></select>
+                        <input id="pFaltadear" name="dPeriodofaltadear" type="text" placeholder="Se afirmativo, quantos dias?">
+                    </p>
+                        
+                    <!--dor de garganta-->
+                    <p>
+                        <label for="dadosDordegarganta">Você está com dor de garganta?</label>
+                        <select name="dDordegarganta" id="dordegarganta"><option value="sim">Sim</option><option value="nao">Não</option></select>
+                        <input id="pDordegarganta" name="dPeriododordegarganta" type="text" placeholder="Se afirmativo, quantos dias?">
+                    </p>
+
+                    <input type="submit" value="Enviar dados para analise">
+                </form>     
+            </div>
+        </div>
+    </div>  
+    
+</body>
+</html>
