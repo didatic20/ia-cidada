@@ -1,10 +1,10 @@
-# PRÉ-REQUISITOS
+## PRÉ-REQUISITOS
 
-> NodeJs v10.17.0 ou superior
-> NPM v6.11.3 ou superior
-> Ionic v4.12.0
+- NodeJs v10.17.0 ou superior
+- NPM v6.11.3 ou superior
+- Ionic v4.12.0
 
-# PRIMEIROS PASSOS
+## PRIMEIROS PASSOS
 
 1) Instalar o NodeJS em seu computador:
 
@@ -18,12 +18,12 @@ Acesse o site oficial para maiores informações: https://nodejs.org/en/download
 
 `npm install`
 
-# RODANDO O PROJETO LOCALMENTE (desenvolvimento)
+## RODANDO O PROJETO LOCALMENTE (desenvolvimento)
 
 `ionic serve`
 
 Nota: normalmente ficará acessível nesse endereço: **localhost:8100**
 
-# BUILD DA APLICAÇÃO PARA PRODUÇÃO
+## BUILD DA APLICAÇÃO PARA PRODUÇÃO
 
 `ionic build --prod`
