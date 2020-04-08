@@ -1,0 +1,55 @@
+ 
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Virtual Env Python
+.venv
+
+# Data MongoDB
+.datadb
+
+# User-specific stuff:
+.idea
+
+# Sensitive or high-churn files:
+.idea
+
+# Gradle:
+.idea
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin:
+.idea
+
+## File-based project format:
+.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+.vscode
+
+# Compilados do Python 3
+__pycache__/
+# Compilados do Python 2
+*.pyc
