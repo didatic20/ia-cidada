@@ -1,6 +1,6 @@
 <ion-content padding>
   <!-- FORM LOGIN -->
-  <form >
+  <form action="login.page.ts">
     <ion-grid>
       <ion-row>
         <ion-col>
@@ -10,21 +10,32 @@
           </div>
         </ion-col>
       </ion-row>
-
+      <!-- BUTTONS OF FACEBOOK AND GOOGLE -->
+      <ion-row>
+        <ion-col> 
+          <ion-button id="bFacebook" type="submit">Facebook</ion-button><ion-button id="bGoogle" type="submit">Google</ion-button>
+        </ion-col>
+      </ion-row>
+      <!-- FORM WITH DATA BY USER -->
       <ion-item>
         <ion-label position="floating">Email</ion-label>
-        <ion-input type="email"></ion-input>
+        <ion-input name="userEmail" type="email" placeholder="Digite seu e-mail" required></ion-input>
       </ion-item>
-     
       <ion-item>
         <ion-label position="floating">Senha</ion-label>
-        <ion-input type="password"></ion-input>
+        <ion-input name="userPassword" type="password" placeholder="Digite sua senha" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mantenha-me conectado.</ion-label>
+        <ion-checkbox slot="start"></ion-checkbox>
       </ion-item>
       <ion-row>
         <ion-col>
-          <ion-button expand="full" type="submit">Login</ion-button>
+          <ion-button id="bLogin" type="submit">Entrar</ion-button><ion-button id="bRegister" type="submit" onclick="window.location='register'">Cadastre-se</ion-button>
         </ion-col>
       </ion-row>
+      <ion-textarea href="www.google.com">Esqueceu sua senha?</ion-textarea> <!-- LINK FOR PAGE FORGET PASSWORD -->
     </ion-grid>
   </form>
+  
 </ion-content>
