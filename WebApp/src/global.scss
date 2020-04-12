@@ -26,11 +26,21 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 .imageLogo{
-    width: 175;
-    height: 175px;
-    align-content: center;
+    width: 250px;
+    height: 250px;
 }
 .fontForm{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    max-width: 400px;
+}
+::-webkit-input-placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+input:-moz-placeholder, textarea:-moz-placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
 }
