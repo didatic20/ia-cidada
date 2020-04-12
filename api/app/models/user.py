@@ -5,8 +5,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from bson.json_util import dumps
 from bson.objectid import ObjectId
 from datetime import datetime
-from config import MESSAGE_INTERNAL_ERROR
-
+from app.messages import MSG_INTERNAL_ERROR, MSG_INVALID_CREDENTIALS, MSG_TOKEN_CREATED
+from flask_jwt_extended import create_access_token, create_refresh_token
 
 
 class User():
@@ -30,7 +30,7 @@ class User():
         Example( find(filterSearch={'age' : '27', 'gender': 'male'}) )
         '''
         try:
-            users = dumps(User.db.find(filterSearch, { "password": False }))
+            users = dumps(User.db.find(filterSearch, {'password': False}))
             users = json.loads(users)
             for user in users:
                 user['_id'] = user["_id"]['$oid']
@@ -42,7 +42,7 @@ class User():
     @classmethod
     def find_one(self, _id):
         try:
-            user = dumps(User.db.find_one({"_id": ObjectId(_id)}, { "password": False }))
+            user = dumps(User.db.find_one({"_id": ObjectId(_id)}, {'password': False}))
             user = json.loads(user)
             user['_id'] = user["_id"]['$oid']      
             return user
@@ -72,7 +72,7 @@ class User():
             return ("Usuário criado com sucesso", 201)
         except Exception as e:
             print(e)
-            return (MESSAGE_INTERNAL_ERROR, 500)
+            return (MSG_INTERNAL_ERROR, 500)
     
     @classmethod
     def update(self, _id, dictUser):        
@@ -98,7 +98,7 @@ class User():
             return "Usuário atualizado com sucesso.", 200
         except Exception as e:
             print(e)
-            return (MESSAGE_INTERNAL_ERROR, 500)
+            return (MSG_INTERNAL_ERROR, 500)
     
     @classmethod
     def delete(self, _id):
@@ -108,7 +108,7 @@ class User():
             return "Usuário excluído com sucesso.", 200
         except Exception as e:
             print(e)
-            return (MESSAGE_INTERNAL_ERROR, 500)
+            return (MSG_INTERNAL_ERROR, 500)
 
     def validate(dictUser):
         try:
@@ -123,5 +123,24 @@ class User():
             return True
         except Exception as e:
             print(e)
-            return MESSAGE_INTERNAL_ERROR, 500
+            return MSG_INTERNAL_ERROR, 500
        
+    @classmethod
+    def authentication(self, email, password):
+        try:
+            user = User.db.find_one({'email': email})
+            if user is None:
+                return 401, { "message": MSG_INVALID_CREDENTIALS }
+            if check_password_hash(user['password'], password):
+                response = {
+                    'status': 200,
+                    'data': { '_id': str(user['_id']), 'name': user['name'], 'email': user['email']},
+                    'message': MSG_TOKEN_CREATED,
+                    'token': create_access_token(identity=str(user['_id'])),
+                    # 'refresh': create_refresh_token(identity=user['email'])
+                }
+                return 200, response
+            return 401, { "message": MSG_INVALID_CREDENTIALS }
+        except Exception as e:
+            print(e)
+            return 500, {'message': MSG_INTERNAL_ERROR}

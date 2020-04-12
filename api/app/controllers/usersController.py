@@ -1,7 +1,8 @@
-from flask import request, jsonify
+from flask import request
 from bson.objectid import ObjectId
 from .controller import Controller
 from app.models.user import User
+from app.messages import HTTP_400_BAD_REQUEST
 
 class UsersController(Controller):
 
@@ -26,7 +27,7 @@ class UsersController(Controller):
                 (message, statusCode) = User.create(jsonData)       
                 return self.buildResponse(statusCode, {"message": message})            
             else:
-                return self.buildResponse(400, { 'message': 'Dados inváĺidos!' })
+                return self.buildResponse(400, { 'message': HTTP_400_BAD_REQUEST })
         except Exception as e:
             print(e)
             return self.handleErrors()

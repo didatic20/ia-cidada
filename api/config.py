@@ -1,10 +1,13 @@
 import string
 import random
+from datetime import timedelta
 
 randomStr = string.ascii_letters + string.digits + string.ascii_uppercase
 key = ''.join(random.choice(randomStr) for i in range(12))
-DEBUG = True
+
 SECRET_KEY = key
+DEBUG = True
 JSON_AS_ASCII = False
 MONGO_URI = 'mongodb://api:1234@localhost:27017/iaCidada'
-MESSAGE_INTERNAL_ERROR = 'Houve um erro ao processar sua solicitação, se o mesmo persistir entre em contato com os administradores!'
+JWT_ACCESS_TOKEN_EXPIRES = timedelta(minutes=60)
+JWT_REFRESH_TOKEN_EXPIRES= timedelta(days=30)

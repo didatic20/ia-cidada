@@ -1,5 +1,5 @@
 from flask import jsonify, json, Response
-from config import MESSAGE_INTERNAL_ERROR
+from app.messages import MSG_INTERNAL_ERROR, MSG_PERMISSION_DENIED
 
 class Controller(object):
 
@@ -36,4 +36,8 @@ class Controller(object):
     
     @classmethod
     def handleErrors(self):
-        return self.buildResponse(500, { 'message': MESSAGE_INTERNAL_ERROR})
+        return self.buildResponse(500, { 'message': MSG_INTERNAL_ERROR})
+    
+    @classmethod
+    def responseNotAllowedUser(self):
+        return self.buildResponse(401, { 'message': MSG_PERMISSION_DENIED})
