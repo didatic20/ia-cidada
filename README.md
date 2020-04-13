@@ -58,7 +58,8 @@ O que deseja?
 -	Orientação sobre prevenção
 -	Diagnóstico confiável
 
-Nosso chatbot - Funcionalidade: 
+# Nosso chatbot - Funcionalidade
+
 -	Educação para saúde
 -	Indicação para canais de apoio
 -	Notificação de acompanhamento
