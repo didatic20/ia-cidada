@@ -17,9 +17,20 @@ export class ChatComponent implements OnInit {
         { key: 'district', question: 'Bairro', response: '' },
       ],
       symptoms: [
-        { question: 'Idade', response: ''},
-        { question: 'Sexo', response: ''},
-        { question: 'Estado', response: ''},
+        { question: 'Febre', response: 0 },
+        { question: 'Tosse', response: 0 },
+        { question: 'Diarreia', response: 0 },
+        { question: 'Dor de cabeça', response: 0 },
+        { question: 'Dor de garganta', response: 0 },
+        { question: 'Dores no corpo/mal estar', response: 0 },
+        { question: 'Conjuntivite', response: 0 },
+        { question: 'Coriza ou nariz entupido', response: 0 },
+        { question: 'Espirros', response: 0 },
+        { question: 'Perda do paladar', response: 0 },
+        { question: 'Perda do olfato', response: 0 },
+        { question: 'Cansaço', response: 0 },
+        { question: 'Falta de ar', response: 0 },
+        { question: 'Falta de ar e dificuldade repentina para respirar', response: 0 },
       ],
       comorbidities: [
         { question: 'Diabetes', response: 0},
@@ -35,10 +46,7 @@ export class ChatComponent implements OnInit {
         { question: 'Você está em isolamento social?', response: 0 },
         { question: ''}
       ]
-
-
     }
-    ]
   };
 
   constructor() { }

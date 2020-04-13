@@ -12,6 +12,18 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
   },
+  {
+    path: 'info',
+    loadChildren: () => import('./pages/info/info.module').then( m => m.InfoPageModule)
+  },
+  {
+    path: 'terms-of-use',
+    loadChildren: () => import('./pages/terms-of-use/terms-of-use.module').then( m => m.TermsOfUsePageModule)
+  },
+  {
+    path: 'info-useful',
+    loadChildren: () => import('./pages/info-useful/info-useful.module').then( m => m.InfoUsefulPageModule)
+  },
 ];
 
 @NgModule({
