@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthenticationService } from 'src/app/services/auth/authentication.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,18 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    private authService: AuthenticationService
+  ) {}
 
+  public login() {
+    const credentials = {
+      email: 'iagorocha1992@gmail.com',
+      password: '123mudar'
+    };
+
+    this.authService.login(credentials.email, credentials.password).subscribe((res) => {
+      console.log('HOMEPAGE: ', this.authService.user);
+    });
+  }
 }

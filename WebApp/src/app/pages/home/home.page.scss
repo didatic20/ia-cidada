@@ -1,22 +1,54 @@
-:host {
+
   ion-title ion-img {
     height: 70px !important;
     width: auto !important;
-  }
+  }  
   
   @media(max-width: 600px){
     ion-title ion-img {
       height: 40px !important;
       width: auto !important;
     }
+
   }
-  
-  
+
   ion-content {
     --background: url(../../../assets/dashboard.png) 0 0/100% 100% no-repeat;
     --background-size: cover;
   }
 
-}
+  #btn-login {
+    position: absolute;
+    left: 12%;
+    top: 40%;
+    width: 30vw;
+    max-width: 280px;
+    --background: #0579cc;
+  }
 
+  div.textbox-chat {
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    width: 40vw;
+    background: #fff;
+    border: solid 2px #6fbed3;    
+    padding: 10px;
+    font-size: small;
+    height: 9vh;
+  }
 
+  .msg-chat-bot {
+    border-radius: 20px 20px 20px 0;
+  }
+
+  .msg-chat-user {
+    border-radius: 20px 20px 0 20px;
+  }
+  
+  @media(min-width: 600px){
+    div.textbox-chat {
+    font-size: large;
+    }
+
+  }
