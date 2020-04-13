@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Sistema de Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+<link href="login.css" rel="stylesheet" type="text/css">
+<script src="login.js" type="text/javascript"></script>
+</head>
+ 
+<body class="geral">
+<strong></strong><div id="form" align="center" class="formlogin"> 
+  <form action="logar.html" method="post" name="login" id="login">
+	<div class="margem">
+		<div id="user_div" onMouseOver="ativarcampo(this)" onMouseOut="liberarcampo(this)"> 
+		  <span id="user_div_span" class="dica">Digite sua identificação de usuário!</span> 
+		  <img src="user.jpg" name="user_img" width="24" height="24" border="0" align="middle"> 
+		  <input name="user_div_field" type="text" size="50" maxlength="50" id="user" onMouseOver="this.focus()" class="cxtext">
+		</div>
+		<div id="pwd_div" onMouseOver="ativarcampo(this)" onMouseOut="liberarcampo(this)"> 
+		  <span id="pwd_div_span" class="dica">Digite sua senha de acesso!</span> 
+		  <img src="key.jpg" name="user_img" width="24" height="24" border="0" align="middle"> 
+		  <input name="pwd_div_field" type="password" size="50" maxlength="50" id="pwd" onMouseOver="this.focus()" class="cxtext">
+		</div>
+		<div id="enter_img_div" onMouseOver="ativarcampo(this)" onMouseOut="liberarcampo(this)"> 
+		  <span id="enter_img_div_span" class="dica">Clique uma vez aqui para realizar 
+		  sua autenticação!</span> <img src="aut.jpg" name="enter_img" width="24" height="24" border="0" align="middle" onClick="javascript:document.login.submit()"> 
+		</div>
+	</div>
+  </form>
+</div>
+</body>
+</html>
+ 
+<!-- logar.css --!>
+.geral {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #3333FF;
+	text-decoration: none;
+	background-color: #0000;
+	text-align: justify;
+	vertical-align: middle;
+	word-spacing: normal;
+	white-space: normal;
+}
+.formlogin {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FF0000;
+	border-right-color: #FF0000;
+	border-bottom-color: #FF0000;
+	border-left-color: #FF0000;
+	width: 500px;
+	height: 100px;
+}
+.dica {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: lighter;
+	border: thin dashed #FF9900;
+	height: auto;
+	width: auto;
+	display: none;
+	position: absolute;
+	top: 150px;
+	left: 10px;
+}
+.margem {
+	margin: 20px;
+}
+.cxtext {
+	border: 1px solid #FF9900;
+	background-color: #C0C0C0;
+}
+ 
+<!-- logar.js --!>
+// JavaScript Document
+function ativarcampo(div){
+	div.style.backgroundColor="#FF9999";
+	div.style.border="thin dotted #FF0000";
+	var id_span=div.id+"_span";
+	var obj_span=document.getElementById(id_span);
+	obj_span.style.display="block";
+	var id_field=div.id+"_field";
+	var obj_field=document.getElementById(id_field);
+	obj_field.style.backgroundColor="#FFFFCC";
+}
+ 
+function liberarcampo(div){
+	div.style.backgroundColor="";
+	div.style.border="";
+	var id_span=div.id+"_span";
+	var obj_span=document.getElementById(id_span);
+	obj_span.style.display="none";
+	var id_field=div.id+"_field";
+	var obj_field=document.getElementById(id_field);
+	obj_field.style.backgroundColor="#C0C0C0";
+}
