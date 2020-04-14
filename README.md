@@ -1,13 +1,18 @@
-# didatic20
-Este é um grupo de estudos de Inteligência Artificial que tem por objetivo criar novos projetos que possam contribuir para facilitar e/ou melhorar a vida da população em geral (pessoas, pets, etc).
+# O didatic20
+Didatic20 é um grupo de estudos de Inteligência Artificial que tem por objetivo criar novos projetos que possam contribuir de forma a facilitar e/ou melhorar a vida da população em geral (pessoas, pets, etc).
 
 # IA Cidadã
+<img src="https://user-images.githubusercontent.com/61212227/79172101-2a9cb400-7dca-11ea-9055-dfd62a028a89.png" height="150" width="210">
+
 Health Techs se mostram bastante promissoras no ecossistema de startups do Brasil. São, também, uma tendência mundial, visto a similaridade das doenças. 
 Soluções tecnológicas podem ser compartilhadas entre países, isso diz muito sobre a escalabilidade do negócio. Pensando nesse mercado promissor criamos a IA CIDADÃ.
 
 A quantidade de pacientes sintomáticos é indeterminada, isso torna-se uma barreira para que o tamanho da pandemia do coronavírus seja mensurada. A IA CIDADÃ acredita que a inteligência artificial pode ser uma excelente ferramenta para acompanhar a evolução dos sintomas, aumentando assim a acurácia do diagnóstico e do número de possíveis infectados. Além de não sobrecarregar o sistema de saúde, a IA CIDADÃ consegue entender como o indivíduo se comporta e lida com os sintomas e medidas preventivas.
 
-**Tripé de Conceitos - Definição do Propósito 
+## Resultado - Validação
+<img src="https://user-images.githubusercontent.com/61212227/79172964-954eef00-7dcc-11ea-9b22-899f49fec471.jpeg">
+
+## Tripé de Conceitos - Definição do Propósito
 
 Problema: Falta de acompanhamento da evolução dos sintomas de possíveis infectados pelo coronavírus. 
 
@@ -15,7 +20,7 @@ Para quem: Pessoas com idade entre 21 a 50 anos conectados diariamente com a int
 
 Como: Acessando aplicativo através de um dispositivo móvel (Celular ou tablet). 
 
-**Desenho Semântico e Narrativo
+## Desenho Semântico e Narrativo
 
 Quem?
 -	Homens/Mulheres 
@@ -58,11 +63,11 @@ O que deseja?
 -	Orientação sobre prevenção
 -	Diagnóstico confiável
 
-**Nosso chatbot - Funcionalidade
+## Nosso chatbot - Funcionalidade
+<img src="https://user-images.githubusercontent.com/61212227/79173374-be23b400-7dcd-11ea-8de7-f8185ac8b65c.PNG">
 
 -	Educação para saúde
 -	Indicação para canais de apoio
 -	Notificação de acompanhamento
 -	Diagnóstico
 -	Análise de dados comportamentais do indivíduo cadastrado 
-
