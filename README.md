@@ -7,7 +7,7 @@ Soluções tecnológicas podem ser compartilhadas entre países, isso diz muito 
 
 A quantidade de pacientes sintomáticos é indeterminada, isso torna-se uma barreira para que o tamanho da pandemia do coronavírus seja mensurada. A IA CIDADÃ acredita que a inteligência artificial pode ser uma excelente ferramenta para acompanhar a evolução dos sintomas, aumentando assim a acurácia do diagnóstico e do número de possíveis infectados. Além de não sobrecarregar o sistema de saúde, a IA CIDADÃ consegue entender como o indivíduo se comporta e lida com os sintomas e medidas preventivas.
 
-# Tripé de Conceitos - Definição do Propósito 
+**Tripé de Conceitos - Definição do Propósito 
 
 Problema: Falta de acompanhamento da evolução dos sintomas de possíveis infectados pelo coronavírus. 
 
@@ -15,7 +15,7 @@ Para quem: Pessoas com idade entre 21 a 50 anos conectados diariamente com a int
 
 Como: Acessando aplicativo através de um dispositivo móvel (Celular ou tablet). 
 
-# Desenho Semântico e Narrativo
+**Desenho Semântico e Narrativo
 
 Quem?
 -	Homens/Mulheres 
@@ -58,7 +58,7 @@ O que deseja?
 -	Orientação sobre prevenção
 -	Diagnóstico confiável
 
-# Nosso chatbot - Funcionalidade
+**Nosso chatbot - Funcionalidade
 
 -	Educação para saúde
 -	Indicação para canais de apoio
