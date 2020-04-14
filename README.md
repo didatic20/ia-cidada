@@ -14,39 +14,39 @@ A quantidade de pacientes sintomáticos é indeterminada, isso torna-se uma barr
 
 ## Tripé de Conceitos - Definição do Propósito
 
-Problema: Falta de acompanhamento da evolução dos sintomas de possíveis infectados pelo coronavírus. 
+**Problema:** Falta de acompanhamento da evolução dos sintomas de possíveis infectados pelo coronavírus. 
 
-Para quem: Pessoas com idade entre 21 a 50 anos conectados diariamente com a internet. 
+**Para quem:** Pessoas com idade entre 21 a 50 anos conectados diariamente com a internet. 
 
-Como: Acessando aplicativo através de um dispositivo móvel (Celular ou tablet). 
+**Como:** Disponível para todas as plataformas. 
 
 ## Desenho Semântico e Narrativo
 
-Quem?
+**Quem?**
 -	Homens/Mulheres 
 -	Adultos/jovens adultos
 -	Com sintomas da COVID-19 
 -	Sem atendimento médico
 
-O que fazer:
+**O que fazer:**
 -	Buscar e encontrar ajuda/apoio/informações
 -	Encontrar plataforma confiável
 -	Encontrar caminho para atendimento se necessário
 
-O que vê?
+**O que vê?**
 -	Redes sociais
 -	TV aberta
 -	Número de infectados/curados/mortos
 
-O que falam?
+**O que falam?**
 -	Se sente confiante com as informações obtidas
 -	Ações de prevenção são muito importantes
 
-O que faz?
+**O que faz?**
 -	Se informa com frequência
 -	Se automedica
 
-O que escuta?
+**O que escuta?**
 -	Não deve procurar serviço de saúde - pode contrair o coronavírus durante o atendimento médico
 -	Fique em casa
 -	Use álcool gel
@@ -55,11 +55,11 @@ O que escuta?
 -	Mantenha afastamento das pessoas
 -	Não compartilhe itens de uso pessoal
 
-Quais são as suas dores?
+**Quais são as suas dores?**
 -	Falta de suporte para acompanhamento da evolução dos sintomas
 -	Falta de orientação para se medicar
 
-O que deseja?
+**O que deseja?**
 -	Orientação sobre prevenção
 -	Diagnóstico confiável
 
