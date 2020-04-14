@@ -1,7 +1,6 @@
-# O didatic20
+# O Didatic20
 Didatic20 é um grupo de estudos de Inteligência Artificial que tem por objetivo criar novos projetos que possam contribuir de forma a facilitar e/ou melhorar a vida da população em geral (pessoas, pets, etc).
 
-# IA Cidadã
 <img src="https://user-images.githubusercontent.com/61212227/79172101-2a9cb400-7dca-11ea-9055-dfd62a028a89.png" height="540" width="750">
 
 Health Techs se mostram bastante promissoras no ecossistema de startups do Brasil. São, também, uma tendência mundial, visto a similaridade das doenças. 
