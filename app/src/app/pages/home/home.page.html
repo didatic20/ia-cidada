@@ -1,8 +1,71 @@
 
 <ion-content fullscreen="true">
-    <ion-button id="btn-login" (click)="login()">TESTE LOGIN</ion-button>
-    <div class="textbox-chat msg-chat-user">
-        Olá, eu sou o Dr. Júnior.
-        Vamos começar o seu teste?
-    </div>
+    <ion-grid class="remove-padding">
+        <ion-row class="remove-padding">
+            <ion-col class="remove-padding">
+                <div class="header">
+                    <img id="bgHomeTop" src="assets/images/background-home-top.png" alt="">
+                    <ion-row>
+                        <ion-col size="5">
+                            <img id="logoHome" src="assets/logo-home.png" alt="">
+                        </ion-col>
+                        <ion-col size="7" class="textTop">
+                            <ion-text id="textTop">Informe-se de forma segura sobre o novo Coronavírus (COVID-19)</ion-text>
+                        </ion-col>
+                    </ion-row>
+                </div>
+            </ion-col>
+        </ion-row>
+        
+        <ion-row class="padding-top ion-align-items-center">
+            <ion-col size="12" push="" size-sm>
+                <ion-row>
+                    <ion-col size="12">                       
+                        <ion-row class="ion-align-items-center">
+                            <ion-col size="2" offset="1">
+                                <img src="assets/icons/info.png" alt="" id="iconInfo">
+                            </ion-col>
+                            <ion-col size="8">
+                                <ion-button class="btn-custom info" (click)="login()">BOLETINS OFICIAIS</ion-button>
+                            </ion-col>
+                        </ion-row>
+                    </ion-col>
+                </ion-row>
+                <ion-row >
+                    <ion-col size="12">
+                        <ion-row>
+                            <ion-col offset="3" size="6" offset-md="4">
+                                <ion-button class="btn-custom game" (click)="login()">JOGO COVID-19</ion-button>
+                            </ion-col>
+                            <ion-col size="2">
+                                <img src="assets/icons/game.png" alt="" id="iconGame">
+                            </ion-col>
+                        </ion-row>
+                    </ion-col>
+                </ion-row>
+            
+            </ion-col>          
+            <ion-col size="12" size-sm>
+                <ion-row>
+                    <ion-col offset="4">                    
+                        <div class="speech-bubble-ds">                  
+                            <span>
+                                Olá, eu sou o Dr. Júnior.
+                                Vamos começar o seu teste?
+                            </span>
+                            <div class="speech-bubble-ds-arrow"></div>
+                        </div>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col size="11" offset="1">
+                        <img src="assets/icons/bot-home-custom.png" alt="" id="botHome">
+                    </ion-col>                   
+                </ion-row>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    
 </ion-content>
+

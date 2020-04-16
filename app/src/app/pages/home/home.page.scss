@@ -1,54 +1,147 @@
 
-  ion-title ion-img {
-    height: 70px !important;
-    width: auto !important;
-  }  
-  
-  @media(max-width: 600px){
-    ion-title ion-img {
-      height: 40px !important;
-      width: auto !important;
-    }
-
-  }
-
   ion-content {
-    //--background: url(../../../assets/dashboard.png) 0 0/100% 100% no-repeat;
+    --background: url(../../../assets/images/background-home.png) 0 0/100% 100% no-repeat;
     --background-size: cover;
+    width: 100%;
+    height: auto;
   }
 
-  #btn-login {
+  ion-col.textTop {
+    margin-top: 3%;
+  }
+
+  .remove-padding {
+    padding: 0;
+  }
+
+  #bgHomeTop {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    left: 12%;
-    top: 40%;
-    width: 30vw;
-    max-width: 280px;
-    --background: #0579cc;
   }
 
-  div.textbox-chat {
-    position: absolute;
-    left: 55%;
-    top: 45%;
-    width: 40vw;
-    background: #fff;
-    border: solid 2px #6fbed3;    
-    padding: 10px;
-    font-size: small;
-    height: 9vh;
-  }
-
-  .msg-chat-bot {
-    border-radius: 20px 20px 20px 0;
-  }
-
-  .msg-chat-user {
-    border-radius: 20px 20px 0 20px;
+  #logoHome {
+    margin: 10%;
+    max-height: 30vh;
   }
   
-  @media(min-width: 600px){
-    div.textbox-chat {
-    font-size: large;
+  #textTop {
+    color: #fafa06;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 1px 0px 4px #000;
+  }
+
+  .btn-custom {
+    --background: #0579cc;
+    height: 3.5rem;
+    width: 20rem;
+    font-size: 1.5rem;
+  }
+
+  ion-button.game {
+    margin-top: 4rem;
+    float: right;
+    position: absolute;
+    left: 4rem;
+  }
+
+  #botHome {
+    max-height: 300px;
+    margin-left: 8%;
+  }
+
+  #iconInfo {
+    max-height: 4rem;
+    float: right;
+  }
+  
+  #iconGame {
+    max-height: 6rem;
+    margin-left: 10px;
+  }
+
+/* SPEECH BUBBLE MEDICAL */
+  .speech-bubble-ds {
+    background: #efefef;
+    width: 23rem !important;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #6fbed3;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    position: relative;  
+  }
+  
+  .speech-bubble-ds-arrow {
+      border-left: 21px solid transparent;
+      bottom: -25px;
+      position: absolute;
+      left: 25%;
+  }
+  .speech-bubble-ds-arrow::before {
+      border-right: 23px solid transparent;
+      border-top: 23px solid #6fbed3;
+      bottom: 2px;
+      content: "";
+      position: absolute;
+      right: 5px;
+  }
+  .speech-bubble-ds-arrow::after {
+      border-right: 21px solid transparent;
+      border-top: 21px solid #efefef;
+      bottom: 6px;
+      content: "";
+      position: absolute;
+      right: 6px;
+  }
+
+  @media(max-width: 576px){
+
+    
+    #logoHome {
+      margin: 5%;
     }
 
+    #textTop {
+      font-size: 1.1rem;
+    }
+
+    #iconInfo {
+      max-height: 2rem;
+      float: center;
+    }
+
+    .btn-custom {
+      height: 2.5rem;
+      width: 11rem;
+      font-size: 1rem;
+    }
+
+    ion-button.game {
+      margin-top: 0.7rem;
+      float: unset;
+      position: unset;
+      left: unset;
+    }
+
+    #botHome {
+      max-height: 170px;
+      margin-right: 0;    
+    }
+
+    .speech-bubble-ds {      
+      width: 220px !important;
+      font-size: 14px;
+    }
+
+    
+    
+
+
   }
+
