@@ -12,15 +12,15 @@ Acesse o site oficial para maiores informações: https://nodejs.org/en/download
 
 2) Instalar o Ionic em seu computador utilizando o npm:
 
-`npm install ionic@4.12.0`
+`npm install -g ionic@4.12.0`
 
-3) Instalar todas as dependências do projeto (precisa estar dentro da pasta "frontend" do projeto):
+3) Instalar todas as dependências do projeto (precisa estar dentro da pasta "app" do projeto):
 
 `npm install`
 
 ## RODANDO O PROJETO LOCALMENTE (desenvolvimento)
 
-`ionic serve`
+`ionic serve` ou `ionic serve --no-open` 
 
 Nota: normalmente ficará acessível nesse endereço: **localhost:8100**
 
