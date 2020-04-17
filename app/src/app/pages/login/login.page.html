@@ -1,7 +1,7 @@
 <ion-content padding>
   <!-- FORM LOGIN -->
   <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
-    <ion-grid class="fontForm">
+    <ion-grid>
       <ion-row>
         <ion-col>
           <!-- LOGO OF APPLICATION -->
@@ -25,13 +25,13 @@
         <ion-label position="floating">Senha</ion-label>
         <ion-input formControlName="password" type="password" placeholder="Digite sua senha"></ion-input>
       </ion-item>
-      <ion-item>
-        <ion-label>Mantenha-me conectado.</ion-label>
+      <div><br>
         <ion-checkbox slot="start"></ion-checkbox>
-      </ion-item>
+        <a class="a_letters">Mantenha-me conectado.</a>
+      </div>
       <ion-row class="ion-text-center">
         <ion-col>
-          <ion-button id="btnLogin" type="submit" expand="full" [disabled]="!formLogin.valid">Entrar</ion-button>
+          <ion-button id="btnLogin" type="submit" expand="block" [disabled]="!formLogin.valid">Entrar</ion-button>
         </ion-col>
       </ion-row>
       <ion-row class="ion-text-center ion-padding-vertical">
@@ -39,11 +39,10 @@
           <ion-button id="btnRegister" size="small" type="button" [routerLink]="'/register'">Cadastre-se</ion-button>
         </ion-col>
       </ion-row>
-
       <ion-row class="ion-text-center">
         <ion-col>
           <!-- TEMOS QUE CRIAR UMA PÁGINA PRA ISSO E IMPLEMENTAR NA API -->
-          <button class="forgotPassword"  [routerLink]="'/login'">Esqueceu sua senha?</button>
+          <button class="forgotPassword"  [routerLink]="'/info-useful'">Esqueceu sua senha?</button>
         </ion-col>
       </ion-row>
     </ion-grid>
