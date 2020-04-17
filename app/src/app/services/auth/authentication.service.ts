@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map, catchError } from 'rxjs/operators';
 import { AlertController, NavController } from '@ionic/angular';
+import { NotificationsService } from './../utils/notifications.service';
 
 const TOKEN_KEY = environment.tokenKey;
 const API_URL = environment.apiUrl;
@@ -17,6 +18,7 @@ export class AuthenticationService {
 
   constructor(
     private alertCtrl: AlertController,
+    private notifications: NotificationsService,
     private http: HttpClient,
     private navCtrl: NavController
   ) { }
@@ -25,9 +27,11 @@ export class AuthenticationService {
    return localStorage.getItem(TOKEN_KEY);
   }
 
-  public login(_email: string, _password: string) {
-    return this.http.post<any>(`${API_URL}/auth`, { email: _email, password: _password })
+  public login(emailForm: string, passwordForm: string) {
+    this.notifications.showLoading();
+    return this.http.post<any>(`${API_URL}/auth`, { email: emailForm, password: passwordForm })
       .pipe(map(response => {
+          this.notifications.hideLoading();
           console.log('AuthService Login: ', response);
           if(response['status'] === 200){
             localStorage.setItem(TOKEN_KEY, response['token']);
@@ -35,13 +39,14 @@ export class AuthenticationService {
             this.boolIsLoggedIn = true;
             this.navCtrl.navigateRoot('/home');
           } else {
-            this.showAlert('Credenciais inválidas');
+            this.notifications.showToast('Credenciais inválidas', 'danger');
           }
         }),
         catchError(e => {
+          this.notifications.hideLoading();
           const error = e.error.message || e.statusText;
           console.log('catchError in login: ', error);
-          this.showAlert(error);
+          this.notifications.showToast(error, 'danger');
           throw new Error(error);
         })
       );
