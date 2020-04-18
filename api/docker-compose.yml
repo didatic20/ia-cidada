@@ -1,16 +1,21 @@
 version: '3'
 services:
-    #ia.cidada.api:
-    #    build: .
-    #    container_name: ia-cidada-api
-    #    tty: true
-    #    working_dir: /var/www
-    #    ports:
-    #        - 5000:5000
-    #    volumes:
-    #        - ./:/var/www
+    ia.cidada.api:
+        build: .
+        container_name: ia-cidada-api
+        tty: true
+        working_dir: /app
+        ports:
+           - 5000:5000
+        volumes:
+            - ./:/app
+        networks:
+            - ia-cidada
+        depends_on: 
+            - ia.cidada.mongo
+            
     ia.cidada.mongo:
-        container_name: ia.cidada.mongo
+        container_name: ia-cidada-mongo
         image: mongo
         restart: always
         volumes:
@@ -21,3 +26,9 @@ services:
         environment:
             MONGO_INITDB_ROOT_USERNAME: root
             MONGO_INITDB_ROOT_PASSWORD: abc123
+        networks:
+            - ia-cidada
+
+networks:
+    ia-cidada:
+        driver: "bridge"
