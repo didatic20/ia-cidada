@@ -13,11 +13,11 @@
       <!-- USER DATA -->
       <ion-item>
         <ion-label position="floating">Nome</ion-label>
-        <ion-input formControlName="nome" type="text" placeholder="Digite seu nome" ng-pattern="/^[a-zA-Z\s]*$/"></ion-input>
+        <ion-input formControlName="name" type="text" placeholder="Digite seu nome" ng-pattern="/^[a-zA-Z\s]*$/"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">Sobrenome</ion-label>
-        <ion-input formControlName="sobrenome" type="text" placeholder="Digite seu sobrenome"></ion-input>
+        <ion-input formControlName="lastname" type="text" placeholder="Digite seu sobrenome"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">E-mail</ion-label>
@@ -25,16 +25,16 @@
       </ion-item>
       <ion-item>
         <ion-label position="floating">Senha</ion-label>
-        <ion-input formControlName="senha" type="password" placeholder="Digite sua senha"></ion-input>
+        <ion-input formControlName="password" type="password" placeholder="Digite sua senha"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">Senha</ion-label>
-        <ion-input formControlName="confirmarsenha" type="password" placeholder="Confirme sua senha"></ion-input>
+        <ion-input formControlName="confirmedPassword" type="password" placeholder="Confirme sua senha"></ion-input>
       </ion-item>
       <!-- TERMS OF USE -->
       <div><br>
-        <ion-checkbox slot="start"></ion-checkbox>
-        <button class="termsUse"  [routerLink]="'/terms-of-use'">Aceita os nossos termos de uso?</button>
+        <ion-checkbox slot="start" formControlName="acceptTermsOfUse"></ion-checkbox>
+        <button class="termsUse" [routerLink]="'/terms-of-use'">Aceita os nossos termos de uso?</button>
       </div>
       <!-- BUTTON REGISTER -->
       <ion-row class="ion-text-center">
