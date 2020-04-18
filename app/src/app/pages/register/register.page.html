@@ -1,9 +1,3 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Registro</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content padding>
   <!-- FORM LOGIN -->
   <form [formGroup]="formRegister" (ngSubmit)="onSubmit()"> 
@@ -16,6 +10,7 @@
           </div>
         </ion-col>
       </ion-row>
+      <!-- USER DATA -->
       <ion-item>
         <ion-label position="floating">Nome</ion-label>
         <ion-input formControlName="nome" type="text" placeholder="Digite seu nome" ng-pattern="/^[a-zA-Z\s]*$/"></ion-input>
@@ -36,15 +31,18 @@
         <ion-label position="floating">Senha</ion-label>
         <ion-input formControlName="confirmarsenha" type="password" placeholder="Confirme sua senha"></ion-input>
       </ion-item>
+      <!-- TERMS OF USE -->
       <div><br>
         <ion-checkbox slot="start"></ion-checkbox>
-        <a class="a_letters">Aceita os nossos termos de uso?</a>
+        <button class="termsUse"  [routerLink]="'/terms-of-use'">Aceita os nossos termos de uso?</button>
       </div>
+      <!-- BUTTON REGISTER -->
       <ion-row class="ion-text-center">
         <ion-col>
           <ion-button id="btnCadastrar" type="submit" expand="block" [disabled]="!formRegister.valid">Cadastrar</ion-button>
         </ion-col>
       </ion-row>
+      <!-- BUTTON, CASE IF HAVE ACCONUT -->
       <ion-row class="ion-text-center">
         <ion-col>
           <button class="haveAccount"  [routerLink]="'/login'">Já tem cadastro? Faça o login.</button>

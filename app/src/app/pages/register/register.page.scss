@@ -22,13 +22,23 @@ ion-label {
     }
 }
 
-.a_letters{
+.termsUse{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: black;
     text-align-last: unset;
     margin-left: 2px;
     position: absolute;
+    text-transform: unset;
+    text-decoration: none;
+    display:inline;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+}
+.termsUse:link{
+    text-decoration: underline;
+    background-color: blue;
 }
 
 .haveAccount {
