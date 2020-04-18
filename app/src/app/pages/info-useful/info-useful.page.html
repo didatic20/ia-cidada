@@ -1,9 +1,37 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>info-useful</ion-title>
+    <ion-title>Recuperação de senha</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <form [formGroup]="formForgot" (ngSubmit)="onSubmit()">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="imageLogo">
+            <img src="assets/logo.png">
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input formControlName="email" type="email" placeholder="Digite seu e-mail"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input formControlName="confirmaremail" type="email" placeholder="Confirme seu e-mail"></ion-input>
+      </ion-item>
+      <ion-row class="ion-text-center">
+        <ion-col>
+          <ion-button id="btnForgot" type="submit" expand="block" [disabled]="!formForgot.valid">Recuperar senha</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-text-center ion-padding-vertical">
+        <ion-col>
+          <ion-button id="btnBack" size="small" type="button" [routerLink]="'/home'">Voltar</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
 </ion-content>

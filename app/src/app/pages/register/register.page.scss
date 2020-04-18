@@ -1,0 +1,56 @@
+ion-grid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+ion-checkbox{
+    margin-left: 4%;
+}
+
+ion-label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageLogo{
+    text-align: center;
+    margin-top: 5%;
+    height: 17%;
+
+    img {
+        max-width: 60%;
+    }
+}
+
+.a_letters{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align-last: unset;
+    margin-left: 2px;
+    position: absolute;
+}
+
+.haveAccount {
+    color: #1a69ad;
+    text-transform: unset;
+    display:inline;
+    background:transparent;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+}
+
+
+::-webkit-input-placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+input:-moz-placeholder, textarea:-moz-placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}

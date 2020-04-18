@@ -6,38 +6,49 @@
 
 <ion-content padding>
   <!-- FORM LOGIN -->
-  <form action="register.page.ts"> 
-    <ion-grid class="fontForm">
-        <!-- LOGO OF APPLICATION -->
+  <form [formGroup]="formRegister" (ngSubmit)="onSubmit()"> 
+    <ion-grid>
       <ion-row>
-        <ion-img class="imageLogo" position="floating" src="assets/logo.png"></ion-img>
+        <ion-col>
+          <!-- LOGO OF APPLICATION -->
+          <div class="imageLogo">
+            <img  src="assets/logo.png">
+          </div>
+        </ion-col>
       </ion-row>
       <ion-item>
         <ion-label position="floating">Nome</ion-label>
-        <ion-input name="userName" type="text" placeholder="Digite seu nome" minlenght="2" required="required"></ion-input>
+        <ion-input formControlName="nome" type="text" placeholder="Digite seu nome" ng-pattern="/^[a-zA-Z\s]*$/"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">Sobrenome</ion-label>
-        <ion-input name="userLastname" type="text" placeholder="Digite seu sobrenome" minlenght="2" required="required"></ion-input>
+        <ion-input formControlName="sobrenome" type="text" placeholder="Digite seu sobrenome"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">E-mail</ion-label>
-        <ion-input name="userEmail" type="email" placeholder="Digite seu e-mail" required="required"></ion-input>
+        <ion-input formControlName="email" type="email" placeholder="Digite seu e-mail"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">Senha</ion-label>
-        <ion-input name="userPass" type="password" placeholder="Digite sua senha" min="6" required="required"></ion-input>
+        <ion-input formControlName="senha" type="password" placeholder="Digite sua senha"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="floating">Senha</ion-label>
-        <ion-input name="userPassconfirm" type="password" placeholder="Confirme sua senha" min="6" required="required"></ion-input>
+        <ion-input formControlName="confirmarsenha" type="password" placeholder="Confirme sua senha"></ion-input>
       </ion-item>
-      <ion-item>
-        <ion-checkbox slot="start" required="required"></ion-checkbox>
-        <ion-label position="left">Aceita os nossos termos de uso?</ion-label>
-      </ion-item>
-      <ion-row>
-        <ion-button name="bCadastrar" type="submit" onclick="validaForm()" action="/register.page.ts">Cadastrar</ion-button><ion-button id="bBack" type="submit" onclick="window.location='login'">Voltar</ion-button>
+      <div><br>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <a class="a_letters">Aceita os nossos termos de uso?</a>
+      </div>
+      <ion-row class="ion-text-center">
+        <ion-col>
+          <ion-button id="btnCadastrar" type="submit" expand="block" [disabled]="!formRegister.valid">Cadastrar</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-text-center">
+        <ion-col>
+          <button class="haveAccount"  [routerLink]="'/login'">Já tem cadastro? Faça o login.</button>
+        </ion-col>
       </ion-row>
     </ion-grid>
   </form>

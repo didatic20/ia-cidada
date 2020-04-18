@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators, } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -7,29 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterPage implements OnInit {
 
-  constructor() { }
+  formRegister: FormGroup;
+
+  constructor(
+    private formBuilder: FormBuilder,
+  ) {
+    this.formRegister = this.formBuilder.group({
+      nome: ['', [Validators.required, Validators.minLength(2)]],
+      sobrenome: ['', [Validators.required, Validators.minLength(2)]],
+      email: ['', [Validators.required, Validators.email]],
+      senha: ['', [Validators.required, Validators.minLength(6)]],
+      confirmarsenha: ['', [Validators.required, Validators.minLength(6)]]
+    })
+   }
 
   ngOnInit() {
   }
 
-}
-function validaForm(form) {
-  if(form.userName.value == "" || form.userName.value == null || form.userName.value.lenght < 3){
-    alert("Por favor, indique um nome!");
-    form.userName.focus();
-    return false;
+  onSubmit(){
+    console.log(this.formRegister.value);
   }
-  if(form.lastName.value == "" || form.lastName.value == null || form.lastName.value.lenght < 3){
-    alert("Por favor, indique um nome!");
-    form.lastName.focus();
-    return false;
-  }
-  if(form.userEmail.value.indexOf("@") == -1 ||
-     form.userEmail.value.indexOf(".") == -1 ||
-     form.userEmail.value == "" || 
-     form.userEmail.valeu == null){
-       alert("Por favor, indique um e-mail válido.");
-       form.userEmail.focus();
-       return false;
-  }
+
 }

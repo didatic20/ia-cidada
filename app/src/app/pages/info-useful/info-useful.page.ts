@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-info-useful',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoUsefulPage implements OnInit {
 
-  constructor() { }
+  formForgot: FormGroup;
+
+  constructor(
+    private formBuilder: FormBuilder,
+  ) {
+    this.formForgot = this.formBuilder.group({
+      email: ['', [Validators.required, Validators.email]],
+      confirmaremail: ['', [Validators.required, Validators.email]]
+    })
+   }
 
   ngOnInit() {
+  }
+
+  onSubmit(){
+    console.log(this.formForgot.value);
   }
 
 }

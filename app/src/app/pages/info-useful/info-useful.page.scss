@@ -1,0 +1,23 @@
+ion-grid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+ion-label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageLogo{
+    text-align: center;
+    margin-top: 5%;
+    height: 17%;
+
+    img {
+        max-width: 60%;
+    }
+}
+#btnBack {
+    --background: #3db7bd;
+    text-shadow: 1px 1px 1px #dfdfdf; 
+}
