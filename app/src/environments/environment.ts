@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  endpoint: 'http://127.0.0.1:5000',
-  apiUrl: 'http://127.0.0.1:5000',
+  endpoint: 'https://api-wzqvk5l3bq-uc.a.run.app',
+  apiUrl: 'https://api-wzqvk5l3bq-uc.a.run.app',
   tokenKey: 'access_token'
 };
 

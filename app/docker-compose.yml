@@ -1,0 +1,10 @@
+version: '3'
+
+
+services:
+    ia-cidada-app:
+        container_name: ia-cidada-app
+        build: .
+        image: gcr.io/ia-cidada/app:latest
+        ports:
+            - 8081:8080

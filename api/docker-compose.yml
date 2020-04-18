@@ -3,32 +3,10 @@ services:
     ia.cidada.api:
         build: .
         container_name: ia-cidada-api
+        image: gcr.io/ia-cidada/api:latest
         tty: true
         working_dir: /app
         ports:
-           - 5000:5000
+           - 8080:8080
         volumes:
             - ./:/app
-        networks:
-            - ia-cidada
-        depends_on: 
-            - ia.cidada.mongo
-            
-    ia.cidada.mongo:
-        container_name: ia-cidada-mongo
-        image: mongo
-        restart: always
-        volumes:
-        - ./.datadb:/data/db
-        ports:
-        - 27017:27017
-        command: ["--auth", "--storageEngine", "wiredTiger"]
-        environment:
-            MONGO_INITDB_ROOT_USERNAME: root
-            MONGO_INITDB_ROOT_PASSWORD: abc123
-        networks:
-            - ia-cidada
-
-networks:
-    ia-cidada:
-        driver: "bridge"

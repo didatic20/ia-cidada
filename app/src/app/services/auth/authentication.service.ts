@@ -55,6 +55,7 @@ export class AuthenticationService {
   public logout() {
     localStorage.removeItem(TOKEN_KEY);
     this.boolIsLoggedIn = false;
+    this.navCtrl.navigateRoot('/login');
   }
 
   async showAlert(msg: string) {
