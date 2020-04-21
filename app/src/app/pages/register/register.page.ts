@@ -36,7 +36,7 @@ export class RegisterPage implements OnInit {
   }
 
   onSubmit(){
-    this.users.create(this.formRegister).subscribe();
+    this.users.create(this.formRegister.value).subscribe();
   }
 
 }

@@ -30,7 +30,6 @@ export class UsersService {
           }),
           catchError(e => {
             this.notifications.hideLoading();
-            console.log(e);
             const error = e.error.message || e.statusText;
             this.notifications.showToast(error, 'danger');
             throw new Error(e);

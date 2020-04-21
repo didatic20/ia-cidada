@@ -25,7 +25,6 @@ export class LoginPage implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.formLogin.value);
     this.auth.login(this.formLogin.value.email, this.formLogin.value.password).subscribe();
   }
 
