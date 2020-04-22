@@ -1,4 +1,5 @@
-import { ChatComponent } from './chat/chat.component';
+import { ChatDialogComponent } from './chat-dialog/chat-dialog.component';
+
 import { NgModule } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
@@ -15,11 +16,11 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   declarations: [
-    ChatComponent
+    ChatDialogComponent
 
   ],
   exports: [
-    ChatComponent
+    ChatDialogComponent
   ]
 })
 

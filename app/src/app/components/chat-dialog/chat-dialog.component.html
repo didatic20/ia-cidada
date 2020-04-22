@@ -1,0 +1,21 @@
+<ion-card-content>
+  <div class="chat">
+    <div id="chat-container" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+      <div class="chat-listcontainer">
+  
+        <ul class="chat-message-list">
+          <ng-container *ngFor="let message of messagesToShow">
+            <div [innerHTML]="message"></div>
+          </ng-container>
+        </ul>  
+      </div>
+    </div>        
+    <div class="chat-response" hidden>
+      <textarea>
+
+      </textarea>
+      <button>Enviar</button>
+    </div>
+
+  </div>
+</ion-card-content>

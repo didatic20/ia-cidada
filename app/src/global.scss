@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -25,3 +25,37 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+.message-left {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.message-right {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.message-left .message-text {
+  max-width: 80%;
+  display: inline-block;
+  background: #4bacc6;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+.message-right .message-text {
+  line-height: 1.5em;
+  display: inline-block;
+  background: #e46c0a;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 30px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+}
